@@ -172,7 +172,7 @@ class MengxlYii
 
 		// mengxl copy yii2 files
 		if (defined('MENGXL_AUTO_COPY') && !file_exists($classFile)) {
-			$srcFile = str_replace(__DIR__, __DIR__ . "/../../../yii2/basic/vendor/yiisoft/yii2", $classFile);
+			$srcFile = str_replace(__DIR__, "/usr/local/bin/yii-2/vendor/yiisoft/yii2", $classFile);
 			if ($srcFile) {
 				echo "\n\n copy: " . $classFile . "\n\n";
 				if(!file_exists(dirname($classFile))){
