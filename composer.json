@@ -4,7 +4,7 @@
     "keywords": [
         "yii2", "mengxl", "mengxl-cn"
     ],
-    "version":"0.0.1",
+    "version":"0.0.2",
     "homepage": "https://github.com/mengxl-cn/db-for-yii2",
     "type": "library",
     "license": "BSD-3-Clause",
